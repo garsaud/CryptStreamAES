@@ -1,0 +1,17 @@
+{
+    "name": "garsaud/cryptstreamaes",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "ext-mcrypt": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Garsaud\\CryptStreamAES\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
